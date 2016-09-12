@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-  <head>
-    <title>Memory Game</title>
-  </head>
-  
-    <nav class="clearfix">
-      <a href="#">Instructions</a>
-      <a href="#">Game</a>
-    </nav>
-    
-    <body>
-    	<h1>Memory Game</h1>
-    	<h2>Instructions</h2>
-    	<p>
-    		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are         flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
-    	</p>
-    	
-    	<div class="board">
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-  	</div>
-  
-  	<footer>
-  		Created with &hearts; by <span class="name">GA</span>
-	</footer>
-
-     </body>
-
-
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Memory Game</title>
+	</head>
+	<body>
+		<nav class="clearfix">
+			<a href="#about">About</a>
+			<a href="#instructions">Instructions</a>
+			<a href="#play">Game</a>
+		</nav>
+		<hr>
+		<header>
+			<h1> Memory Game </h1>
+			<h2 id="about"> About </h2>
+			<p> Memory is a pretty standard game, but what makes this one unique is that it was created by ME! When complete, it will be the first game I've ever developed so that's pretty exciting! To find out more about me, check me out on <a href="#"> Facebook </a> ! </p>
+			<h2 id="instructions"> Instructions </h2>
+			<p> Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. </p>
+		</header>
+		<hr>
+		<div class="game" id="play">
+			<h1> Play The Game </h1>
+		</div>
+		<div class="board">
+			<div class="card" id="card1"></div>
+			<div class="card" id="card2"></div>
+			<div class="card" id="card3"></div>
+			<div class="card" id="card4"></div>
+		</div>
+		<footer>
+			<p> Created with &hearts; by <span class="name"> Kara Langlois </span> </p>
+		</footer>
+		<script src="main.js"></script>
+	</body>
 </html>
