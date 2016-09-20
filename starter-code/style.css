@@ -48,6 +48,11 @@ header {
 	float: left;
 }
 
+img {
+	height: 200px;
+	width: 150px;
+}
+
 .card {
 	height: 200px;
 	width: 150px;
